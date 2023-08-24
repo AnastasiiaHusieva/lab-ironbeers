@@ -1,0 +1,13 @@
+<div class="beer">
+    <img src="{{ image_url }}" alt="{{ name }}">
+    <h2>{{ name }}</h2>
+    <p>{{ description }}</p>
+    <p>Tagline: {{ tagline }}</p>
+    {{#if food_pairing}}
+        <p>Food Pairing: {{ food_pairing }}</p>
+    {{/if}}
+    {{#if brewers_tips}}
+        <p>Brewer Tips: {{ brewers_tips }}</p>
+    {{/if}}
+    <a href="/beers/{{ _id }}">View Details</a>
+</div>

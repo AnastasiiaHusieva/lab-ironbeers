@@ -5,3 +5,14 @@ dark-blue: #0a2c42;
 grey: #bfbfbf;
 font-family: Arial, Helvetica, sans-serif;
 */
+
+#checkButtons {
+    display: flex;
+    flex-direction: column;
+}
+.checkButtons {
+    background-color: #2081c3;
+    list-style: none;
+   
+    
+}
